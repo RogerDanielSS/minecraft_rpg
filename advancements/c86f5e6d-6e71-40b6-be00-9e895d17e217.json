@@ -800,6 +800,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:pillager": "2026-01-26 22:12:06 -0300",
       "minecraft:vindicator": "2026-01-26 21:16:52 -0300",
       "minecraft:zombie": "2026-01-26 13:10:31 -0300",
       "minecraft:zombie_villager": "2026-01-26 13:07:20 -0300"
@@ -1067,6 +1068,36 @@
   "minecraft:recipes/decorations/red_stained_glass_pane": {
     "criteria": {
       "has_glass": "2026-01-26 13:57:47 -0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/voluntary_exile": {
+    "criteria": {
+      "voluntary_exile": "2026-01-26 22:15:46 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_banner": {
+    "criteria": {
+      "has_brown_wool": "2026-01-26 22:16:02 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_bed": {
+    "criteria": {
+      "has_brown_wool": "2026-01-26 22:16:02 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_carpet": {
+    "criteria": {
+      "has_brown_wool": "2026-01-26 22:16:02 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/painting": {
+    "criteria": {
+      "has_wool": "2026-01-26 22:16:02 -0300"
     },
     "done": true
   },
