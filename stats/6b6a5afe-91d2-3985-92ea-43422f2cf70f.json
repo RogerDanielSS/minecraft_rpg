@@ -1,0 +1,36 @@
+{
+  "stats": {
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 13824,
+      "minecraft:walk_one_cm": 40522,
+      "minecraft:leave_game": 1,
+      "minecraft:walk_under_water_one_cm": 8556,
+      "minecraft:play_time": 13824,
+      "minecraft:jump": 25,
+      "minecraft:time_since_death": 13824,
+      "minecraft:sprint_one_cm": 8868,
+      "minecraft:open_chest": 1,
+      "minecraft:swim_one_cm": 3616,
+      "minecraft:total_world_time": 14609,
+      "minecraft:fly_one_cm": 83775,
+      "minecraft:walk_on_water_one_cm": 10259,
+      "minecraft:crouch_one_cm": 91,
+      "minecraft:sneak_time": 301
+    },
+    "minecraft:used": {
+      "minecraft:stone": 2,
+      "minecraft:writable_book": 2,
+      "minecraft:lever": 2,
+      "minecraft:stone_slab": 1,
+      "minecraft:splash_potion": 96,
+      "minecraft:torch": 1,
+      "minecraft:stone_stairs": 1
+    },
+    "minecraft:picked_up": {
+      "minecraft:glow_berries": 2,
+      "minecraft:crimson_fungus": 1,
+      "minecraft:lever": 2
+    }
+  },
+  "DataVersion": 4671
+}

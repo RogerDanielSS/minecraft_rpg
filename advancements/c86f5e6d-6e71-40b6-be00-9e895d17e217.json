@@ -8,6 +8,7 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:dark_forest": "2026-01-24 20:44:09 -0300",
+      "minecraft:ocean": "2026-03-28 22:52:16 -0300",
       "minecraft:plains": "2026-01-24 21:23:30 -0300"
     },
     "done": false
@@ -803,13 +804,16 @@
       "minecraft:pillager": "2026-01-26 22:12:06 -0300",
       "minecraft:blaze": "2026-02-02 00:26:02 -0300",
       "minecraft:skeleton": "2026-02-02 00:22:26 -0300",
+      "minecraft:phantom": "2026-03-29 01:06:29 -0300",
+      "minecraft:zombified_piglin": "2026-01-30 20:38:30 -0300",
+      "minecraft:bogged": "2026-02-01 23:50:08 -0300",
+      "minecraft:ghast": "2026-02-01 23:45:19 -0300",
       "minecraft:piglin": "2026-01-30 20:54:02 -0300",
       "minecraft:vindicator": "2026-01-26 21:16:52 -0300",
-      "minecraft:zombified_piglin": "2026-01-30 20:38:30 -0300",
+      "minecraft:spider": "2026-03-28 22:54:00 -0300",
       "minecraft:zombie": "2026-01-26 13:10:31 -0300",
-      "minecraft:zombie_villager": "2026-01-26 13:07:20 -0300",
-      "minecraft:bogged": "2026-02-01 23:50:08 -0300",
-      "minecraft:ghast": "2026-02-01 23:45:19 -0300"
+      "minecraft:creeper": "2026-03-28 22:54:28 -0300",
+      "minecraft:zombie_villager": "2026-01-26 13:07:20 -0300"
     },
     "done": false
   },
@@ -2682,9 +2686,39 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/orange_dye_from_torchflower": {
+    "criteria": {
+      "has_torchflower": "2026-02-14 15:24:44 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/suspicious_stew_from_torchflower": {
+    "criteria": {
+      "has_torchflower": "2026-02-14 15:24:44 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/waxed_oxidized_copper_chest_from_honeycomb": {
     "criteria": {
       "has_oxidized_copper_chest": "2026-02-14 15:37:57 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_from_moss_block": {
+    "criteria": {
+      "has_moss_block": "2026-02-14 15:38:14 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/moss_carpet": {
+    "criteria": {
+      "has_moss_block": "2026-02-14 15:38:14 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_bricks_from_moss_block": {
+    "criteria": {
+      "has_moss_block": "2026-02-14 15:38:14 -0300"
     },
     "done": true
   },
@@ -2700,27 +2734,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/cyan_dye_from_pitcher_plant": {
-    "criteria": {
-      "has_pitcher_plant": "2026-02-14 16:06:57 -0300"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/cherry_stairs": {
     "criteria": {
       "has_planks": "2026-02-14 15:49:45 -0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/orange_dye_from_torchflower": {
-    "criteria": {
-      "has_torchflower": "2026-02-14 15:24:44 -0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/red_dye_from_rose_bush": {
-    "criteria": {
-      "has_rose_bush": "2026-02-14 16:05:48 -0300"
     },
     "done": true
   },
@@ -2733,66 +2749,6 @@
   "minecraft:recipes/redstone/cherry_button": {
     "criteria": {
       "has_planks": "2026-02-14 15:49:45 -0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/bone_meal": {
-    "criteria": {
-      "has_bone": "2026-02-14 16:19:26 -0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/suspicious_stew_from_azure_bluet": {
-    "criteria": {
-      "has_azure_bluet": "2026-02-14 16:16:17 -0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/bread": {
-    "criteria": {
-      "has_wheat": "2026-02-14 16:40:40 -0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/pink_dye_from_cactus_flower": {
-    "criteria": {
-      "has_cactus_flower": "2026-02-14 16:16:20 -0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/hay_block": {
-    "criteria": {
-      "has_wheat": "2026-02-14 16:40:40 -0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/mossy_cobblestone_from_moss_block": {
-    "criteria": {
-      "has_moss_block": "2026-02-14 15:38:14 -0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/light_blue_dye_from_blue_orchid": {
-    "criteria": {
-      "has_blue_orchid": "2026-02-14 16:16:14 -0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/suspicious_stew_from_blue_orchid": {
-    "criteria": {
-      "has_blue_orchid": "2026-02-14 16:16:14 -0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/suspicious_stew_from_torchflower": {
-    "criteria": {
-      "has_torchflower": "2026-02-14 15:24:44 -0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/light_gray_dye_from_azure_bluet": {
-    "criteria": {
-      "has_azure_bluet": "2026-02-14 16:16:17 -0300"
     },
     "done": true
   },
@@ -2814,21 +2770,87 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/moss_carpet": {
-    "criteria": {
-      "has_moss_block": "2026-02-14 15:38:14 -0300"
-    },
-    "done": true
-  },
   "minecraft:recipes/redstone/cherry_door": {
     "criteria": {
       "has_planks": "2026-02-14 15:49:45 -0300"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/mossy_stone_bricks_from_moss_block": {
+  "minecraft:recipes/misc/red_dye_from_rose_bush": {
     "criteria": {
-      "has_moss_block": "2026-02-14 15:38:14 -0300"
+      "has_rose_bush": "2026-02-14 16:05:48 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/cyan_dye_from_pitcher_plant": {
+    "criteria": {
+      "has_pitcher_plant": "2026-02-14 16:06:57 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_blue_dye_from_blue_orchid": {
+    "criteria": {
+      "has_blue_orchid": "2026-02-14 16:16:14 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/suspicious_stew_from_blue_orchid": {
+    "criteria": {
+      "has_blue_orchid": "2026-02-14 16:16:14 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/suspicious_stew_from_azure_bluet": {
+    "criteria": {
+      "has_azure_bluet": "2026-02-14 16:16:17 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_azure_bluet": {
+    "criteria": {
+      "has_azure_bluet": "2026-02-14 16:16:17 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pink_dye_from_cactus_flower": {
+    "criteria": {
+      "has_cactus_flower": "2026-02-14 16:16:20 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bone_meal": {
+    "criteria": {
+      "has_bone": "2026-02-14 16:19:26 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/bread": {
+    "criteria": {
+      "has_wheat": "2026-02-14 16:40:40 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/hay_block": {
+    "criteria": {
+      "has_wheat": "2026-02-14 16:40:40 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/fletching_table": {
+    "criteria": {
+      "has_flint": "2026-03-28 23:56:32 -0300"
+    },
+    "done": true
+  },
+  "minecraft:story/deflect_arrow": {
+    "criteria": {
+      "deflected_projectile": "2026-03-28 23:29:18 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_wood": {
+    "criteria": {
+      "has_log": "2026-03-28 22:53:15 -0300"
     },
     "done": true
   },
