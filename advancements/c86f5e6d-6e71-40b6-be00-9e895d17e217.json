@@ -3052,6 +3052,24 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/smooth_quartz_stairs_from_smooth_quartz_stonecutting": {
+    "criteria": {
+      "has_smooth_quartz": "2026-03-30 22:59:33 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_quartz_stairs": {
+    "criteria": {
+      "has_smooth_quartz": "2026-03-30 22:59:33 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/black_dye": {
+    "criteria": {
+      "has_ink_sac": "2026-03-30 23:12:34 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/dye_black_harness": {
     "criteria": {
       "has_needed_dye": "2026-03-30 23:12:53 -0300"
@@ -3064,21 +3082,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/smooth_quartz_stairs_from_smooth_quartz_stonecutting": {
-    "criteria": {
-      "has_smooth_quartz": "2026-03-30 22:59:33 -0300"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/black_bundle": {
     "criteria": {
       "has_black_dye": "2026-03-30 23:12:53 -0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/black_dye": {
-    "criteria": {
-      "has_ink_sac": "2026-03-30 23:12:34 -0300"
     },
     "done": true
   },
@@ -3106,15 +3112,21 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/smooth_quartz_stairs": {
-    "criteria": {
-      "has_smooth_quartz": "2026-03-30 22:59:33 -0300"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/dye_black_wool": {
     "criteria": {
       "has_needed_dye": "2026-03-30 23:12:53 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/suspicious_stew_from_lily_of_the_valley": {
+    "criteria": {
+      "has_lily_of_the_valley": "2026-04-02 22:55:25 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/white_dye_from_lily_of_the_valley": {
+    "criteria": {
+      "has_lily_of_the_valley": "2026-04-02 22:55:25 -0300"
     },
     "done": true
   },
